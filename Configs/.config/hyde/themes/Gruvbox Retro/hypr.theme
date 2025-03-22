@@ -39,6 +39,12 @@ group {
     col.border_locked_inactive = rgba(1e8b50d9) rgba(50b050d9) 45deg
 }
 
+input {
+    touchpad {
+        natural_scroll=true
+    }
+}
+
 decoration {
     rounding = 3
     shadow:enabled = false
@@ -47,7 +53,7 @@ decoration {
         enabled = yes
         size = 4
         passes = 2
-        new_optimizations = on
+new_optimizations = on
         ignore_opacity = on
         xray = false
     }
