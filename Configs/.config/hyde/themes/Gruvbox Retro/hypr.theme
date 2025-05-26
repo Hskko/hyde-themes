@@ -40,8 +40,13 @@ group {
 }
 
 input {
+    kb_layout = us,us,fr
+    kb_variant = ,dvp
+    # kb_options = grp:alt_shift_toggle
+    follow_mouse = 1
+
     touchpad {
-        natural_scroll=true
+        natural_scroll = yes
     }
 }
 
